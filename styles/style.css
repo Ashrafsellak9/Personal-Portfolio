@@ -205,7 +205,6 @@ a {
     }
 }
 
-/* Form Container */
 #contact-form {
     background-color: #f9f9f9;
     padding: var(--spacing-4);
@@ -215,7 +214,6 @@ a {
     margin: 0 auto;
 }
 
-/* Form Headings */
 #contact-form h2 {
     font-size: 2rem;
     margin-bottom: var(--spacing-3);
@@ -230,7 +228,6 @@ a {
     color: #555;
 }
 
-/* Form Group */
 .form-group {
     margin-bottom: var(--spacing-3);
 }
@@ -246,7 +243,7 @@ label {
     color: red;
 }
 
-/* Inputs and Textareas */
+
 input, textarea {
     width: 100%;
     padding: var(--spacing-2);
@@ -266,7 +263,6 @@ textarea {
     resize: none;
 }
 
-/* Submit Button */
 button.btn {
     display: block;
     width: 100%;
@@ -290,7 +286,6 @@ button.btn:active {
     transform: translateY(0);
 }
 
-/* Adjustments for Smaller Screens */
 @media only screen and (max-width: 600px) {
     #contact-form {
         padding: var(--spacing-3);
