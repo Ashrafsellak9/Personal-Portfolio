@@ -1,2 +1,9 @@
-# Personal-Portfolio
-A personal portfolio website showcasing my skills, projects, and contact information. Built with HTML, CSS, and JavaScript for a responsive and user-friendly experience.
+# Portfolio Project
+
+this is the source code for my personal portfolio project
+
+## Built with 
+
+* HTML
+* CSS 
+* JavaScript

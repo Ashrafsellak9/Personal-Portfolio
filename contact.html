@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Sellak Achraf for collaborations, inquiries, or project discussions.">
+    <title>Contact | Sellak Achraf</title>
+    <link rel="stylesheet" href="styles/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <h2 id="logo"><a href="/index.html" aria-label="Home Page of Sellak Achraf">Sellak Achraf</a></h2>
+        <ul class="navigation-items">
+            <li class="navigation-item"><a href="/index.html">About Me</a></li>
+            <li class="navigation-item"><a href="/index.html">Projects</a></li>
+            <li class="navigation-item"><a href="/index.html">Skills</a></li>
+            <li class="navigation-item"><a href="/contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section id="contact">
+
+            <form id="contact-form" action="submit_form.php" method="POST">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out through the form below. I'll get back to you as soon as possible!</p>
+                
+                <div class="form-group">
+                    <label for="name">Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the subject">
+                </div>
+            
+                <div class="form-group">
+                    <label for="message">Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+                </div>
+            
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sellak Achraf. All rights reserved.</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/sellakAshraf" target="_blank" aria-label="LinkedIn Profile">
+                <i class="fab fa-linkedin icon"></i>
+            </a>
+            <a href="https://github.com/ashrafsk9" target="_blank" aria-label="GitHub Profile">
+                <i class="fab fa-github icon"></i>
+            </a>
+            <a href="mailto:sellakachraf9@example.com" aria-label="Email Sellak Achraf">
+                <i class="fas fa-envelope-square icon"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
